@@ -1,6 +1,7 @@
 $ virtualenv XYZ
 $ source XYZ/bin/activate
 $ pip install tensorflow[and-cuda]==2.19 keras jupyterlab pandas numpy seaborn scikit-learn matplotlib keras-hub tensorflow-text tensorflow_datasets
+$ pip install --upgrade "jax[cuda12]"
 
 $ pip list | grep nvidia
 nvidia-cublas-cu12           12.5.3.2
