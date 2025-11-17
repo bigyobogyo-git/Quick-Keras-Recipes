@@ -1,4 +1,4 @@
 $ virtualenv XYZ
 $ source XYZ
 $ pip install "tensorflow[and-cuda]<2.16" "keras<3" jupyterlab pandas numpy seaborn scikit-learn matplotlib keras-hub tensorflow-text tensorflow_datasets
-
+$ pip install "tensorflow_probability<0.24"
